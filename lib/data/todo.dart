@@ -1,9 +1,9 @@
 class Todo {
-  int? id;
+  late int id;
   String? name;
   String? description;
   String? completeBy;
-  int? priority;
+  late int priority;
 
   Todo(this.name, this.description, this.completeBy, this.priority);
   //todo 객체의 모든 필드를 취하는 생성자를 생성. id는 sembast 이용시 데이터베이스에서 자동 생성되기 때문에 안 넣어도 됨.
